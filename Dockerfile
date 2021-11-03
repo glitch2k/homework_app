@@ -6,8 +6,8 @@ WORKDIR /src
 
 # this next 2 lines of code will copy the required files into the image's 
 # ...working dir
-COPY ./src/requirements.txt .
-COPY ./src/server.py .
+COPY ./requirements.txt .
+COPY ./server.py .
 
 # this line of code will install all the python modules listed in the file 
 # ..."requirements.txt"
